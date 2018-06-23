@@ -1,0 +1,51 @@
+head	{
+}
+body	{
+	background-color: #1e1e1e;
+	margin-right: 80px;
+	margin-left: 80px;
+	border-width: 1px;
+	border: solid;
+	border-color: white;
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+h1	{
+	background-color: lightblue;
+	color: white;
+	font-size: 62px;
+	font-family: Anton, sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-right: -80px;
+	margin-left: -80px;
+}
+h2	{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: Julius Sans One, sans-serif;
+	margin-top: -15px;
+}
+h3	{
+	color: lavender;
+	margin-left: 40px;
+	margin-top: 50px;
+	font-family: Anton, sans-serif;
+	font-size: 24px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+p	{
+	color:white;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 6mm;
+	font-family: sanchez, serif;
+	font-weight: lighter;
+}
+#p01	{
+	color:red;
+}
