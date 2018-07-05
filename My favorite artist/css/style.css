@@ -49,7 +49,7 @@ li a:hover {
 	animation-delay: 1s;
 	animation: cubic-bezier(30px);
 }
-li a:active {
+li a.active {
 	background-color: #f5ad28;
 	padding: 10px;
 	display: unset;
