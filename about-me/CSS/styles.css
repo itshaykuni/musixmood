@@ -71,7 +71,6 @@ h2	{
 }
 .image-frame {
 	display: block;
-	float: left;
 	padding: 60px;
 	padding-right: 30px;
 }
@@ -81,7 +80,6 @@ img {
 	object-fit: cover;
 	height: 320px;
 	border: solid #f2f2f2 1px;
-	float: left;
 	filter: grayscale(100%);
 	display: block;
 	margin-bottom: 60px;
@@ -94,13 +92,17 @@ img:hover {
 .container	{
 	max-width: 100%;
 	height: auto;
-	display: grid;
-	background-color: #f5ad28;
-	margin: 60px;
-	margin-left: 0;
-	margin-bottom: 80px;
+	display: flex;
 	padding: 20px;
 	padding-top: 5px;
+}
+
+.text-container {
+	background-color: #f7b527;
+	margin-top: 60px;
+	padding: 20px;
+	height: fit-content;
+	margin-right: 60px;
 }
 
 h3	{
