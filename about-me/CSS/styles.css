@@ -1,17 +1,17 @@
 * {
 	box-sizing: border-box;
 }
-body	{
+body {
 	background-color: #1e1e1e;
 	margin: 0;
 }
-.top-container	{
+.top-container {
 	padding: 30px;
 	margin: 0;
 	align-items: center;
 	justify-content: center;
 }
-.navbar	{
+.navbar {
 	display: inline;
 	background-color: #0e0e0ecf;
 	text-align: center;
@@ -27,7 +27,7 @@ ul {
 	padding-right: 12rem;
 	background-color: #0e0e0ecf;
 }
-.navbar li 	{
+.navbar li {
 	display: inline;
 	list-style-type: none;
 	color: #f2f2f2;
@@ -38,7 +38,7 @@ ul {
 	width: 100%;
 	justify-content: space-around;
 }
-.navbar li:hover	{
+.navbar li:hover {
 	background-color: #e6e6e6;
 	color: #1e1e1e;
 }
@@ -46,7 +46,7 @@ ul {
 	background-color: #ffad33;
 	color: #f2f2f2;
 }
-h1	{
+h1 {
 	display: block;
 	width: 100%;
 	margin: 0;
@@ -58,7 +58,7 @@ h1	{
 	font-size: 4rem;
 	text-transform: uppercase;
 }
-h2	{
+h2 {
 	margin: 0;
 	color: #f2f2f2;
 	text-align: center;
@@ -69,43 +69,37 @@ h2	{
 	padding-bottom: 10px;
 	width: 100%;
 }
+
 .image-frame {
 	display: block;
-	padding: 60px;
-	padding-right: 30px;
+	margin-right: 30px;
 }
 
 img {
-	width: inherit;
-	object-fit: cover;
-	height: 320px;
+	width: 320px;
 	border: solid #f2f2f2 1px;
 	filter: grayscale(100%);
+	transition: all 0.5s;
 	display: block;
-	margin-bottom: 60px;
 }
 
 img:hover {
-	filter: unset;
+	filter: none;
 }
 
-.container	{
+.container {
 	max-width: 100%;
-	height: auto;
 	display: flex;
-	padding: 20px;
-	padding-top: 5px;
+	padding: 60px;
 }
 
 .text-container {
 	background-color: #f7b527;
-	margin-top: 60px;
 	padding: 20px;
 	height: fit-content;
-	margin-right: 60px;
 }
 
-h3	{
+h3 {
 	color: #f2f2f2;
 	letter-spacing: 2px;
 	font-family: Cantarell, sans-serif;
@@ -117,14 +111,14 @@ h3	{
 	margin-top: 10px;
 }
 
-p 	{
+p {
 	font-size: 14px;
 	font-family: source serif pro, serif;
 	font-weight: lighter;
 	text-align: justify;
 }
 
-footer	{
+footer {
 	border: solid black 1px;
 	width: 100%;
 	height: 100px;
@@ -136,7 +130,7 @@ footer	{
 	text-align: center;
 }
 
-h6	{
+h6 {
 	font-family: source serif pro, serif;
 	font-size: 14px;
 	text-align: center;
