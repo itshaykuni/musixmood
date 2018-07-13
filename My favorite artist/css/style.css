@@ -1,17 +1,17 @@
-*	{
+* {
 	box-sizing: border-box;
 }
-body	{
+body {
 	background-color: #1e1e1e;
 	margin: 0;
 }
-.top-container	{
+.top-container {
 	padding: 30px;
 	margin: 0;
 	align-items: center;
 	justify-content: center;
 }
-.navbar	{
+.navbar {
 	display: inline;
 	background-color: #0e0e0ecf;
 	text-align: center;
@@ -27,7 +27,7 @@ ul {
 	padding-right: 12rem;
 	background-color: #0e0e0ecf;
 }
-.navbar li 	{
+.navbar li {
 	display: inline;
 	list-style-type: none;
 	color: #f2f2f2;
@@ -38,7 +38,7 @@ ul {
 	width: 100%;
 	justify-content: space-around;
 }
-.navbar li:hover	{
+.navbar li:hover {
 	background-color: #e6e6e6;
 	color: #1e1e1e;
 }
@@ -46,7 +46,7 @@ ul {
 	background-color: #ffad33;
 	color: #f2f2f2;
 }
-h1	{
+h1 {
 	display: block;
 	width: 100%;
 	margin: 0;
@@ -58,7 +58,7 @@ h1	{
 	font-size: 4rem;
 	text-transform: uppercase;
 }
-h2	{
+h2 {
 	margin: 0;
 	color: #f2f2f2;
 	text-align: center;
@@ -69,15 +69,15 @@ h2	{
 	padding-bottom: 10px;
 	width: 100%;
 }
-.flex-container	{
+.flex-container {
 	padding-top: 50px;
 	padding-right: 10%;
-	padding-left:10%;
+	padding-left: 10%;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 8px;
 }
-.flex-container > div	{
+.flex-container > div {
 	background-color: #f5ad28;
 	text-align: center;
 	font-family: sans-serif;
@@ -85,7 +85,7 @@ h2	{
 	font-size: 30px;
 	padding-bottom: 1rem;
 }
-.flex-container	p 	{
+.flex-container p {
 	height: 145px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -116,11 +116,11 @@ h2	{
 	border-color: #1e1e1e;
 }
 
-.image-frame	{
+.image-frame {
 	padding: 6px;
 	padding-bottom: 0;
 }
-img 	{
+img {
 	width: 100%;
 	object-fit: cover;
 	height: 220px;
@@ -128,7 +128,7 @@ img 	{
 	border-width: 1px;
 	margin: 0;
 }
-h3	{
+h3 {
 	color: #f2f2f2;
 	letter-spacing: 2px;
 	margin: 5px;
@@ -140,7 +140,7 @@ h3	{
 	background-color: #1e1e1e;
 	text-transform: capitalize;
 }
-footer	{
+footer {
 	border: solid black 1px;
 	padding: 20px;
 	margin-top: 20px;
@@ -152,39 +152,40 @@ footer	{
 	text-align: center;
 	justify-content: center;
 }
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 	.flex-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
-}
+}*/
 @media only screen and (max-width: 414px) {
-	.flex-container {
+	/*.flex-container {
 		grid-template-columns: repeat(1, 1fr);
 		padding: 5%;
 	}
-	h1	{
+*/
+	h1 {
 		font-size: 2.5rem;
 	}
-	ul	{
+	ul {
 		width: 100%;
 		padding: 10px;
 	}
 }
 @media only screen and (max-width: 375px) {
-	.flex-container	{
+	/*	.flex-container	{
 		grid-template-columns: repeat(1, 1fr);
 		padding: 5%;
-	}
-	h1	{
+	}*/
+	h1 {
 		font-size: 36px;
 		text-align: center;
 		width: 100%;
 	}
-	ul	{
+	ul {
 		width: 100%;
 		padding: 2%;
 	}
-	.top-container	{
+	.top-container {
 		padding: 10px;
 		align-items: center;
 	}
